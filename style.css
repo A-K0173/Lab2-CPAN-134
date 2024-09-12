@@ -1,0 +1,33 @@
+body {background-color: aliceblue;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+header {color: black;
+    text-align: center;
+}
+main {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-align: justify;
+    display: inline-block;
+}
+footer {
+    font-style: italic;
+}
+/* figured out you can do this! -aareez.k */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: rgb(210, 222, 255);
+}
+.flex-item {
+    background-color: white;
+    border: 5px solid #7bb9ff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
